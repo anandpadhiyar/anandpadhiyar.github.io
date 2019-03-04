@@ -1,3 +1,24 @@
 img{
 	width: 10%;
 }
+.container{
+	border: 1px solid black;
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1{
+	color: red;
+
+}
+p{
+	font-size: 20px;
+}
+marquee{
+	color: white;
+	background-color: green;
+	font-size: 30px;
+}
