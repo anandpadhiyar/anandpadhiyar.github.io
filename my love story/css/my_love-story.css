@@ -1,0 +1,34 @@
+body{
+	background-color: #e3e3e3;
+
+}
+.heading1{
+	color: red;
+	text-align: center;
+	font-size: 40px;
+}
+.heading2{
+	text-decoration: underline;
+	font-size: 30px;
+
+}
+.container{
+	border: 2px solid black;
+	width: 90%;
+	margin: auto;
+}
+.paragraph{
+	width: 85%;
+	margin: auto;
+	text-align: justify;
+}
+p{
+	font-size: 20px;
+}
+.images{
+	text-align: center;
+}
+.special{
+	text-align: center;
+	font-size: 23px;
+}
