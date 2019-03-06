@@ -2,6 +2,32 @@ body{
 	background-color: #e3e3e3;
 
 }
+.sidenav{
+	height: 100%;
+	width: 140px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	
+	padding-top: 20px;
+}
+.sidenav p{
+	color: #818181;
+	display: block;
+	font-size: 25px;
+	padding: 6px 8px;
+}
+.sidenav p:hover{
+	color: #f1f1f1;
+}
+@media screen and (max-height: 450px){
+	.sidenav{padding-top: 15px;}
+	.sidenav p{font-size: 18px;}
+}
+
+
 .heading1{
 	color: red;
 	text-align: center;
@@ -13,9 +39,10 @@ body{
 
 }
 .container{
+	margin-left: 160px;
 	border: 2px solid black;
-	width: 90%;
-	margin: auto;
+	width: 80%;
+	
 }
 .paragraph{
 	width: 85%;
@@ -32,6 +59,6 @@ p{
 	text-align: center;
 	font-size: 23px;
 }
-img{
-
+video{
+	text-align: center;
 }
