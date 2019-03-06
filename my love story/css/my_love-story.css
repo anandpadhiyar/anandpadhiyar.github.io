@@ -3,14 +3,14 @@ body{
 
 }
 audio{
-	width: 75px;
+	width: 140px;
 }
 audio:hover{
-	width:200px;
+	width:200px	;
 }
 .sidenav{
 	height: 100%;
-	width: 80px;
+	width: 150px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -19,18 +19,16 @@ audio:hover{
 	
 	padding-top: 20px;
 }
-.sidenav p{
+.sidenav a{
 	color: #818181;
 	display: block;
-	font-size: 25px;
+	font-size: 22px;
 	padding: 6px 8px;
 }
-.sidenav p:hover{
+.sidenav a:hover{
 	color: #f1f1f1;
 }
-.sidenav:hover{
-	width: 200px;
-}
+
 @media screen and (max-height: 450px){
 	.sidenav{padding-top: 15px;}
 	.sidenav p{font-size: 18px;}
@@ -48,7 +46,7 @@ audio:hover{
 
 }
 .container{
-	margin-left: 120px;
+	margin-left: 160px;
 	border: 2px solid black;
 	width: 80%;
 	
