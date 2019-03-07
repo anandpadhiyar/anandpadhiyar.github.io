@@ -1,6 +1,9 @@
 function audioplayer(){
-	var currsong = 0;
-	$("#audioplayer")[0].src = $("#playlist li a")[0];
+	//var currsong = 0;
+	var len = $("#playlist li a").length;
+	var currsong = Math.floor(Math.random() * len);
+	$("#playlist li:eq("+currsong+")").addClass("currentsong");
+	$("#audioplayer")[0].src = $("#playlist li a")[currsong];
 	$("#audioplayer")[0].play();
 	$("#playlist li a").click(function(e){
 		e.preventDefault();

@@ -9,6 +9,22 @@ audio{
 audio:hover{
 	width:250px	;
 }
+.index a{
+	text-decoration: none;
+	color: #000066;
+	font-size: 23px;
+	text-decoration: underline;
+}
+.index{
+	padding-bottom: 10px;
+}
+.index a:hover{
+	color: 	 #4d4dff;
+}
+
+
+
+
 .sidenav{
 	height: 100%;
 	width: 150px;
@@ -19,6 +35,37 @@ audio:hover{
 	background-color: #111;
 	
 	padding-top: 20px;
+}
+.footer{
+	overflow: hidden;
+}
+.pre a:hover{
+	color: #808000
+}
+.next a:hover{
+	color: #808000
+}
+
+.pre{
+	width: 90px;
+	font-size: 20px;
+	float: left;
+	padding-bottom: 2%;
+	padding-left: 15%;
+}
+.next{
+	font-size: 20px;
+	float: right;
+	padding-bottom: 2%;
+	padding-right: 15%;
+
+}
+.sidenav h1{
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	color: #e6e600;
+	text-decoration: underline;
 }
 .sidenav a{
 	color: #818181;
@@ -60,6 +107,7 @@ audio:hover{
 	width: 80%;
 	
 }
+
 .paragraph{
 	width: 85%;
 	margin: auto;
