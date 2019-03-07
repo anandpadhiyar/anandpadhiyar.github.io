@@ -6,19 +6,7 @@
 	
 </head>
 <body>
-	<div class="sidenav">
 	
-			<audio controls>
-				<source src="songs/01 O Soniye (Titoo MBA) Arijit Singh -190Kbps.mp3" type="audio/mpeg">
-				<source src="songs/Main-Na-Bhoolunga-(RaagSong.Com).mp3" type="audio/mpeg">
-			</audio>
-			<ul>
-				<li><a href="songs/01 O Soniye (Titoo MBA) Arijit Singh -190Kbps.mp3">O soniye</a></li>
-				<li><a href="songs/Main-Na-Bhoolunga-(RaagSong.Com).mp3">Mai na bhoolunga</a></li>
-				<li><a href="songs/Shukran-Allah (SongsMp3.Com).mp3">Shukran allah</a></li>
-			</ul>
-		
-	</div>
 	<div class="container">
 		<div class="heading1">
 			<h1>My Lovestory</h1>
@@ -139,6 +127,46 @@
 
 		</div>
 	</div>
+	<div class="sidenav">
+	
+			<audio controls id="audioplayer">
+				Sorry...your browser do not support audio..
+			</audio>
+			<ul id="playlist">
+				<li class="currentsong"><a href="songs/01 O Soniye (Titoo MBA) Arijit Singh -190Kbps.mp3">O soniye</a></li>
+				<li><a href="songs/Main-Na-Bhoolunga-(RaagSong.Com).mp3">Mai na bhoolunga</a></li>
+				<li><a href="songs/Shukran-Allah (SongsMp3.Com).mp3">Shukran allah</a></li>
+			</ul>
+		
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script>
+		audioplayer();
+		function audioplayer(){
+			var currsong = 0;
+			$("#audioplayer")[0].src = $("#playlist li a")[0];
+			$("#audioplayer")[0].play();
+			$("#playlist li a").click(function(e){
+				e.preventDefault();
+				$("#audioplayer")[0].src = this;
+				$("#audioplayer")[0].play();
+				$("#playlist li").removeClass("currentsong");
+				currentsong = $(this).parent().index();
+				$(this).parent().addClass("currentsong");
+			});
+			$("#audioplayer")[0].addEventListener("ended",function(){
+				currsong++;
+				if(currsong == $("#playlist li a").length)
+					currsong = 0;
+				$("#playlist li").removeClass("currentsong");
+				$("#playlist li:eq("+currsong+")").addClass("currentsong");
+				$("#audioplayer")[0].src = $("#playlist li a")[currsong].href;
+				$("#audioplayer")[0].play();
+			});
+
+		}
+	</script>
 
 </body>
 </html>

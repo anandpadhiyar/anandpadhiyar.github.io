@@ -5,8 +5,9 @@ body{
 audio{
 	width: 140px;
 }
+
 audio:hover{
-	width:200px	;
+	width:250px	;
 }
 .sidenav{
 	height: 100%;
@@ -24,6 +25,14 @@ audio:hover{
 	display: block;
 	font-size: 22px;
 	padding: 6px 8px;
+	text-decoration: none;
+}
+.sidenav ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+#playlist .currentsong a{
+	color: #cccc00;
 }
 .sidenav a:hover{
 	color: #f1f1f1;
