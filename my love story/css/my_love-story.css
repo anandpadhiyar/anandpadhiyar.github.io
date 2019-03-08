@@ -2,6 +2,16 @@ body{
 	background-color: #e3e3e3;
 
 }
+.form{
+	margin: auto;
+	margin-top: 10%;
+	border: 2px solid black;
+	padding: 30px;
+	width: 50%;
+}
+.button{
+	text-align: center;
+}
 audio{
 	width: 140px;
 }
@@ -50,8 +60,9 @@ audio:hover{
 .sidenav{
 	height: 100%;
 	width: 150px;
-	position: fixed;
+	position: fixed;	
 	z-index: 1;
+	overflow-y: scroll;
 	top: 0;
 	left: 0;
 	background-color: #111;
@@ -68,7 +79,7 @@ audio:hover{
 .sidenav a{
 	color: #818181;
 	display: block;
-	font-size: 100%;
+	font-size: 23px;
 	padding: 6px 8px;
 	text-decoration: none;
 }
@@ -104,6 +115,7 @@ audio:hover{
 	margin-left: 160px;
 	border: 2px solid black;
 	width: 80%;
+	padding: 20px;
 	
 }
 
