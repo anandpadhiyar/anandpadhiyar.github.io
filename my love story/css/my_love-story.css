@@ -23,19 +23,6 @@ audio:hover{
 }
 
 
-
-
-.sidenav{
-	height: 100%;
-	width: 150px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #111;
-	
-	padding-top: 20px;
-}
 .footer{
 	overflow: hidden;
 }
@@ -59,6 +46,17 @@ audio:hover{
 	padding-bottom: 2%;
 	padding-right: 15%;
 
+}
+.sidenav{
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	padding-top: 20px;
+	max-height: 95%;
 }
 .sidenav h1{
 	display: block;
@@ -87,7 +85,7 @@ audio:hover{
 
 @media screen and (max-height: 450px){
 	.sidenav{padding-top: 15px;}
-	.sidenav p{font-size: 18px;}
+	.sidenav a{font-size: 18px;}
 }
 
 
@@ -95,6 +93,7 @@ audio:hover{
 	color: red;
 	text-align: center;
 	font-size: 40px;
+	margin-left: 160px;
 }
 .heading2{
 	text-decoration: underline;
