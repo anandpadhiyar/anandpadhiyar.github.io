@@ -1,5 +1,6 @@
 body{
 	background-color: #e3e3e3;
+	font-family: sans-serif;
 
 }
 .form{
@@ -59,7 +60,7 @@ audio:hover{
 }
 .sidenav{
 	height: 100%;
-	width: 150px;
+	width: 170px;
 	position: fixed;	
 	z-index: 1;
 	overflow-y: scroll;
@@ -112,7 +113,7 @@ audio:hover{
 
 }
 .container{
-	margin-left: 160px;
+	margin-left: 180px;
 	border: 2px solid black;
 	width: 80%;
 	padding: 20px;
