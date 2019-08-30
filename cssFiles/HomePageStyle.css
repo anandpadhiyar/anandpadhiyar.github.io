@@ -1,0 +1,90 @@
+html, body{
+    height: 100%;
+}
+body {
+    background: url(../images/monuLooking.gif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-inverse .navbar-brand {
+    color: #66C5DE;
+}
+.navbar {
+    opacity: 0.8;
+}
+
+.dropdown-menu {
+    background-color: black;
+    opacity: 0.6;
+}
+.dropdown-menu li a {
+    color: white;
+}
+#social {
+    min-width: 20px;
+    text-align: center;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+.socialButton {
+    padding: 15px;
+    opacity: 1;
+}
+.faceButton {
+    background-color: #4267B2;
+    color: white;
+    
+}
+.faceButton:hover {
+    background-color: #29487D;
+    color: white;
+    
+}
+
+.page-content {
+    border: 1.5px solid gray;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: gray;
+    opacity: 0.8;
+    min-width: 360px;
+    width: 60%;
+}
+.greet {
+    text-align: center;
+    color: white; ;
+    font-size: 3em;
+}  
+.description {
+    font-size: 1em;
+    color: #d6d6d6;
+/*    background-color: #66C5DE;*/
+}
+.beutiMonu {
+    text-align: center;
+    padding: 20px;
+}
+@media (max-width: 1024px) {
+        .page-content {
+        margin:200px auto;
+    }
+}
+@media (max-width: 768px){
+    .dropdown-menu li a {
+    color: white;
+}
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+}
+
+}
+@media (max-width: 768px) {
+    .page-content {
+        margin: 150px auto;
+    }
+}
+
