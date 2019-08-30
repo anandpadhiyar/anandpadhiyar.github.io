@@ -1,0 +1,228 @@
+html, body {
+    height: 100%;
+}
+#tableOfContents{
+	background: url(../images/monuInBlueDress.gif) no-repeat center fixed;
+    background-size: cover;
+}
+#firstMeeting {
+    background: url(../images/chotiHunnu.gif) no-repeat center fixed;
+    background-size: cover;
+}
+#collegueRiya {
+    background: url(../images/monuInRedDress.gif) no-repeat center fixed;
+    background-size: cover;
+}
+#independenceDay {
+    background: url(../images/independenceDayMonu.gif) no-repeat center fixed;
+    background-size: cover;
+}
+#phoneNo{
+    background: url(../images/monuWithTeddy.gif) no-repeat center fixed;
+    background-size: cover;
+}
+.form{
+	margin: auto;
+	margin-top: 10%;
+	border: 2px solid black;
+	padding: 30px;
+	width: 50%;
+}
+.button{
+	text-align: center;
+}
+audio{
+	width: 140px;
+}
+
+audio:hover{
+	width:250px	;
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: #66C5DE;
+}
+.navbar {
+    opacity: 0.8;
+}
+
+.dropdown-menu {
+    background-color: black;
+    opacity: 0.6;
+}
+.dropdown-menu li a {
+    color: white;
+}
+#social {
+    min-width: 20px;
+    text-align: center;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+.socialButton {
+    padding: 15px;
+    opacity: 1;
+}
+.faceButton {
+    background-color: #4267B2;
+    color: white;
+    
+}
+.faceButton:hover {
+    background-color: #29487D;
+    color: white;
+    
+}
+
+
+
+.footer{
+	overflow: hidden;
+}
+.pre a:hover{
+	color: #808000
+}
+.next a:hover{
+	color: #808000
+}
+
+.pre{
+	width: 90px;
+	font-size: 20px;
+	float: left;
+	padding-bottom: 2%;
+	padding-left: 15%;
+}
+.next{
+	font-size: 20px;
+	float: right;
+	padding-bottom: 2%;
+	padding-right: 15%;
+
+}
+.sidenav{
+    margin-top: 50px;
+	height: 100%;
+	max-width: 200px;
+    min-width: 140px;
+    width: 18%;
+	position: fixed;	
+	z-index: 1;
+	overflow-y: scroll;
+	top: 0;
+	left: 0;
+	background-color: #454545;
+	padding-top: 20px;
+	max-height: 95%;
+    opacity: 0.9;
+}
+.sidenav h1{
+	display: block;
+	font-size: 2.5em;
+	text-align: center;
+	color: #ABABAB;
+}
+.sidenav a{
+	color: #DFDFDF;
+	display: block;
+    border-bottom: 1px solid #DFDFDF;
+	font-size: 1.5em;
+	padding: 6px 8px;
+	text-decoration: none;
+}
+.sidenav ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+#playlist .currentsong a{
+	color: #838383;
+}
+.sidenav a:hover{
+	color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px){
+	.sidenav{padding-top: 15px;}
+	.sidenav a{font-size: 18px;}
+}
+.contain{
+	margin-left: 20%;
+    margin-top: 80px;
+    position: relative;
+    
+	width: 80%;
+    border: 2px solid black;
+    border-radius: 20px;
+    opacity: 0.9;
+    padding: 10px;
+    
+}
+.lightGray {
+    background-color: #DFDFDF;
+    opacity: 0.7;
+}
+.story {
+    text-align: justify;
+}
+@media (max-width:768px){
+    .contain{
+        margin-left: 150px;
+    }
+}
+.heading1{
+    color: #838383;
+    margin-top: 50px;
+	text-align: center;
+	font-size: 3em;
+}
+.index{
+	padding-bottom: 10px;
+    color: #454545;
+	font-size: 1.5em;
+}
+.index a {
+    color:#454545;
+    text-decoration: underline;
+}
+.index a:hover{
+	color: #5E5E5E;
+}
+.heading2{
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+.paragraph{
+	width: 85%;
+	margin: auto;
+	text-align: justify;
+}
+p{
+	font-size: 20px;
+}
+.images{
+	text-align: center;
+    padding: 5px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.special{
+	text-align: center;
+	font-size: 23px;
+}
+video{
+	text-align: center;
+}
+@media (max-width: 768px){
+    .dropdown-menu li a {
+    color: white;
+}
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+}
+
+}
