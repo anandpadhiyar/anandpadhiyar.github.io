@@ -1,0 +1,90 @@
+body {
+    background-color: forestgreen;
+}
+.gallary {
+    text-align: center;
+    margin-top: 50px;
+}
+.gallary img {
+    height: 200px;
+    padding: 10px;
+    filter: grayscale(50%)
+}
+.gallary img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1)
+}
+
+
+
+.navbar-inverse .navbar-brand {
+    color: #66C5DE;
+}
+.navbar {
+    opacity: 0.8;
+}
+
+.dropdown-menu {
+    background-color: black;
+    opacity: 0.6;
+}
+.dropdown-menu li a {
+    color: white;
+}
+
+
+.sidenav{
+    margin-top: 50px;
+	height: 100%;
+	max-width: 200px;
+    min-width: 140px;
+    width: 18%;
+	position: fixed;	
+	z-index: 1;
+	overflow-y: scroll;
+	top: 0;
+	left: 0;
+	background-color: #454545;
+	padding-top: 20px;
+	max-height: 95%;
+    opacity: 0.9;
+}
+.sidenav h1{
+	display: block;
+	font-size: 2.5em;
+	text-align: center;
+	color: #ABABAB;
+}
+.sidenav a{
+	color: #DFDFDF;
+	display: block;
+    border-bottom: 1px solid #DFDFDF;
+	font-size: 1.5em;
+	padding: 6px 8px;
+	text-decoration: none;
+}
+.sidenav ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+#playlist .currentsong a{
+	color: #838383;
+}
+.sidenav a:hover{
+	color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px){
+	.sidenav{padding-top: 15px;}
+	.sidenav a{font-size: 18px;}
+}
+
+@media (max-width: 768px){
+    .dropdown-menu li a {
+    color: white;
+}
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+}
+
+}
