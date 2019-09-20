@@ -105,8 +105,7 @@ audio:hover{
 .sidenav{
     margin-top: 50px;
 	height: 100%;
-	max-width: 200px;
-    min-width: 140px;
+    min-width: 100px;
     width: 18%;
 	position: fixed;	
 	z-index: 1;
@@ -168,7 +167,7 @@ audio:hover{
 }
 @media (max-width:768px){
     .contain{
-        margin-left: 150px;
+/*        margin-left: 150px;*/
     }
 }
 .heading1{
