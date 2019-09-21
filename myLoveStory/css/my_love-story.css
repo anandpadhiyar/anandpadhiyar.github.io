@@ -151,7 +151,7 @@ audio:hover{
     margin-top: 80px;
     position: relative;
     
-	width: 80%;
+	width: 75%;
     border: 2px solid black;
     border-radius: 20px;
     opacity: 0.9;
@@ -167,7 +167,7 @@ audio:hover{
 }
 @media (max-width:768px){
     .contain{
-/*        margin-left: 150px;*/
+        margin-left: 110px;
     }
 }
 .heading1{
