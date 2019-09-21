@@ -149,6 +149,7 @@ audio:hover{
 .contain{
 	margin-left: 20%;
     margin-top: 80px;
+    margin-right: 20px;
     position: relative;
     
 	width: 75%;
