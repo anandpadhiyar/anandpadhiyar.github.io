@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style>
+        .container {
+            margin: auto;
+            margin-top: 150px;
+            text-align: center;
+        }
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+        <video width = "640" height="480" controls autoplay>
+            <source src="../videos/VID_20190921_193337.mp4" type="video/mp4">
+            Your browser does not support video tag.
+        </video>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+         document.getElementById('video-id').addEventListener('ended',function(){
+     window.location.href = 'HomePage.html';
+ },false);
+	</script>
+
+</body>
+
+</html>
