@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 
-	<title>Minimum Bootstrap HTML Skeleton</title>
+	<title>Happy birthday my Monu</title>
 
 	<!--  -->
 
@@ -23,8 +23,8 @@
 <body>
 
 	<div class="container">
-        <video width = "640" height="480" controls autoplay>
-            <source src="../videos/VID_20190921_193337.mp4" type="video/mp4">
+        <video width = "640" height="480" controls autoplay id="video1">
+            <source src="../videos/VID_20190921_193337.mp4" type="video/mp4" >
             Your browser does not support video tag.
         </video>
 	</div>
@@ -32,10 +32,17 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-	<script>
-         document.getElementById('video-id').addEventListener('ended',function(){
-     window.location.href = 'https://anandpadhiyar.github.io/html/HomePage.html';
- },false
+	<script type="text/javascript" language="javascript">
+        alert('Earphone lagaye hai na monu');
+          function playVideo() {
+        var video= document.getElementById('video1');
+        video.play();
+        video.addEventListener('ended',function() {
+            window.location= 'https://anandpadhiyar.github.io/html/HomePage.html';
+        });
+    }
+    playVideo();
+    </script>
 
 </body>
 
