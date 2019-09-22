@@ -13,68 +13,71 @@
 	<style>
 
         * {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-body {
-  background: #E5E5E5;
-  background-image: url("/gray-floral.png");
-  padding: 50px;
-}
+              box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+            }
+        body {
+          background: #E5E5E5;
+          background-image: url("/gray-floral.png");
+          padding: 50px;
+        }
 
-#card-front {
-  color: #FFDFDF;
-}
+        #card-front {
+          color: #FFDFDF;
+        }
 
-#card, #card-front, #card-inside {
-  height: 480px;
-}
+        #card, #card-front, #card-inside {
+          height: 480px;
+        }
 
-.wrap {
-    padding: 1.5em 2.5em;
-    height: 100%;
-}
-#card-front, #card-inside {
-  width: 50%;
-  -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .5);
-  -moz-box-shadow: 2px 2px 30px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .5);
-  box-shadow: 2px 2px 30px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .5);
-  position: absolute;
-  left: 50%;
-}
+        .wrap {
+            padding: 1.5em 2.5em;
+            height: 100%;
+        }
+        #card-front, #card-inside {
+          width: 50%;
+            min-width: 200px;
+          -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .5);
+          -moz-box-shadow: 2px 2px 30px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .5);
+          box-shadow: 2px 2px 30px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .5);
+          position: absolute;
+          left: 50%;
+        }
 
 
-#card-inside .wrap {
-    background: #FFEFEF;
-    -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
-    -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
-    box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
-}
-#card {
-    max-width: 960px;
-    margin: 0 auto;
-    transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    perspective: 5000px;
-    -moz-perspective: 5000px;
-    -webkit-perspective: 5000px;
-    position: relative;
-}
+        #card-inside .wrap {
+            background: #FFEFEF;
+            -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
+            -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
+        }
+        #card {
+            max-width: 960px;
+            margin: 0 auto;
+            transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -webkit-transform-style: preserve-3d;
+            perspective: 5000px;
+            -moz-perspective: 5000px;
+            -webkit-perspective: 5000px;
+            position: relative;
+        }
 
-#card h1 {
-    text-align: center;
-    font-family: 'Nobile', sans-serif;
-    font-style: italic;
-    font-size: 70px;
-    text-shadow: 
-        4px 4px 0px rgba(0, 0, 0, .15),
-        1px 1px 0 rgba(255, 200, 200, 255),
-        2px 2px 0 rgba(255, 150, 150, 255),
-        3px 3px 0 rgba(255, 125, 125, 255);
-    color: #FFF;
-}
+        #card h1 {
+            text-align: center;
+            font-family: 'Nobile', sans-serif;
+            font-style: italic;
+            font-size: 3.5em;
+            text-shadow: 
+                4px 4px 0px rgba(0, 0, 0, .15),
+                1px 1px 0 rgba(255, 200, 200, 255),
+                2px 2px 0 rgba(255, 150, 150, 255),
+                3px 3px 0 rgba(255, 125, 125, 255);
+            color: #FFF;
+        }
+       
+
 #card-inside {
     font-size: 1.1em;
     line-height: 1.4;
@@ -194,6 +197,14 @@ footer {
   color: #888;
   text-align: center;
 }
+     @media screen and (max-height: 768px){
+            #card h1 {
+                font-size: 3em;
+            }
+            #card-inside {
+                font-size: 0.7em;
+            }
+        }
         
         
 	</style>
