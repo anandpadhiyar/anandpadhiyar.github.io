@@ -3,3 +3,16 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+.gallary {
+    text-align: center;
+    margin-top: 50px;
+}
+.gallary img {
+    height: 200px;
+    padding: 10px;
+    filter: grayscale(50%)
+}
+.gallary img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1)
+}
