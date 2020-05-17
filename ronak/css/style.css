@@ -19,6 +19,6 @@ body {
 
 @media screen and (max-width: 800px) {
     .gallary img {
-        height: 70px;
+        height: 100px;
     }
 }
