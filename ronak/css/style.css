@@ -16,3 +16,9 @@ body {
     filter: grayscale(0%);
     transform: scale(1.1)
 }
+
+@media screen and (max-width: 800px) {
+    .gallary img {
+        height: 1000px;
+    }
+}
