@@ -8,13 +8,12 @@ body {
     text-align: center;
     margin-top: 50px;
 }
-.gallary a {
-    padding: 10px;
-}
+
 .gallary img {
+    margin: 10px;
     height: 200px;
     filter: grayscale(50%);
-    border: 2px solid black;
+    border: 2px solid #B2E4FB;
     border-radius: 4px;
 }
 .gallary img:hover {
