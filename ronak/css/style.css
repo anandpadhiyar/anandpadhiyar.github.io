@@ -3,7 +3,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #CC8E86;
-    background: url('../images/ocean.jpg') no-repeat cover fixed;
 }
 .gallary {
     text-align: center;
@@ -12,7 +11,9 @@ body {
 .gallary img {
     height: 200px;
     padding: 10px;
-    filter: grayscale(50%)
+    filter: grayscale(50%);
+    border: 2px solid black;
+    border-radius: 4px;
 }
 .gallary img:hover {
     filter: grayscale(0%);
