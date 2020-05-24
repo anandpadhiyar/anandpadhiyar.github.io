@@ -36,6 +36,10 @@ body {
 #navbarSupportedContent > ul > li {
     padding-left: 50px;
 }
+#special {
+    color: red;
+    font-weight: 600;
+}
 
 @media screen and (max-width: 800px) {
 
