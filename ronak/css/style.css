@@ -8,9 +8,11 @@ body {
     text-align: center;
     margin-top: 50px;
 }
+.gallary a {
+    padding: 10px;
+}
 .gallary img {
     height: 200px;
-    padding: 10px;
     filter: grayscale(50%);
     border: 2px solid black;
     border-radius: 4px;
