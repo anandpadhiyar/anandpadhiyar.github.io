@@ -1,0 +1,90 @@
+body {
+    font-family: font-family: 'Bree Serif', serif;
+    background-color: #644832;
+    color: white;
+}
+
+.nav-wrapper {
+    background-color: #967259;
+}
+
+nav .brand-logo {
+    padding-left: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.slider .indicators .indicators-item {
+    background-color: white;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #967259;
+}
+
+
+.move {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.parallax-container {
+    min-height: 290px;
+    height: auto;
+}
+
+.icons-cofee {
+    color: #ece0d1;
+}
+
+.footer-one {
+    background-color: #967259;
+}
+.footer-two {
+    background-color: #392210;
+}
+.big-icon {
+    font-size: 1.1em;
+    margin-bottom: 0;
+}
+
+.divider {
+    height: 2px;
+    background-color: #644832;
+    margin: 50px 0;
+}
+
+.card {
+    background-color: #967259;
+    color: white;
+}
+
+.card .card-reveal {
+    background-color: #967259;
+    color: #ECE0D1;
+}
+.card .card-reveal .card-title {
+    color: white;
+}
+
+.card-panel {
+    background-color: #967259 !important;
+}
+.grey-text {
+    color: #ece0d1 !important;
+}
+
+.modal {
+    background-color: #392210;
+}
+.modal .modal-footer {
+    background-color: #392210;
+}
+
+.modal .modal-close {
+    background-color: white;
+}
+/* lightest:- #ECE0D1
+lighter:- #DCC1AC
+background-color :- #967259
+little darker:- #644832
+darkest:- #392210 */

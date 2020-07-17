@@ -1,0 +1,51 @@
+body {
+    font-family: font-family: 'Bree Serif', serif;
+}
+
+.nav-wrapper {
+    background-color: #644345;
+}
+
+nav .brand-logo {
+    padding-left: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #644345;
+}
+.move {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.parallax-container {
+    min-height: 290px;
+    height: auto;
+}
+
+.icons-cofee {
+    color: #644345;
+}
+
+.footer-one {
+    background-color: #644345;
+}
+.footer-two {
+    background-color: rgb(77, 50, 52);
+}
+.big-icon {
+    font-size: 1.1em;
+    margin-bottom: 0;
+}
+
+.divider {
+    height: 2px;
+    background-color: #644345;
+    margin: 50px 0;
+}
+/* lightest:- #ECE0D1
+lighter:- #DCC1AC
+background-color :- #967259
+little darker:- #644832
+darkest:- #392210 */
