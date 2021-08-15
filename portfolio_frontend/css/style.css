@@ -230,7 +230,7 @@ nav a:hover:before {
   text-align: center;
 }
 
-.text-focus {
+.text-focus a {
   color: #323c54;
   font-weight: 800;
   text-decoration: underline;
@@ -353,6 +353,7 @@ footer p {
 .social .icon {
   width: 45px;
   text-align: center;
+  cursor: pointer;
 }
 
 .social .social-info {
